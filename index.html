@@ -4,16 +4,16 @@
     <title>Peak AZ Experiences</title>
     <meta charset="utf-8">
     <script>
+      let daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday",
+                             "Thursday", "Friday", "Saturday"];
+      let now = new Date();
+      let dayName = daysOfTheWeek[now.getDay()];
       //alert function takes in argument(s) and performs some task with them.
-      alert("Welcome to Arizona!");
+      alert(`Welcome to Arizona. Happy ${dayName}!`);
       console.log("This is a greeting");
       let firstName = "Jocko";
       let lastName  = "Lee";
       console.log(firstName, lastName);
-    </script>
-    <script>
-      //alert function takes in argument(s) and performs some task with them.
-      alert("See Scottsdale");
     </script>
   </head>
   <body>
